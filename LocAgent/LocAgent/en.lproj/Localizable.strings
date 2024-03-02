@@ -1,0 +1,11 @@
+
+
+"HomeScreenTitle" = "Home"; /* Home screen title */
+
+"NetworkErrorMessage" = "Unable to connect to the network. Please check your internet connection and try again."; /* Error message for network failure */
+
+"StartProcessButton" = "Start"; /* Label for a button that starts a process */
+
+"SearchBarPlaceholder" = "Search here..."; /* Placeholder text for a search bar */
+
+"OperationSuccessfulMessage" = "Your operation was successfully completed."; /* Confirmation message for a successful operation */
