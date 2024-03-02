@@ -1,8 +1,5 @@
-/* 
-  Localizable.strings
-  LocAgent
-
-  Created by Patricio Reyes on 3/1/24.
-  
-*/
-
+"HomeScreenTitle" = "Home";
+"NetworkErrorMessage" = "Unable to connect to the network. Please check your internet connection and try again.";
+"StartProcessButton" = "Start";
+"SearchBarPlaceholder" = "Search here...";
+"OperationSuccessfulMessage" = "Your operation was successfully completed.";
