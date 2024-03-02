@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D8D239D2B92D94E009EAD37 /* LocAgentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D239C2B92D94E009EAD37 /* LocAgentApp.swift */; };
+		3D8D239F2B92D94E009EAD37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D239E2B92D94E009EAD37 /* ContentView.swift */; };
+		3D8D23A12B92D950009EAD37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D23A02B92D950009EAD37 /* Assets.xcassets */; };
+		3D8D23A42B92D950009EAD37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8D23A32B92D950009EAD37 /* Preview Assets.xcassets */; };
+		3D8D23AE2B92D950009EAD37 /* LocAgentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D23AD2B92D950009EAD37 /* LocAgentTests.swift */; };
+		3D8D23B82B92D950009EAD37 /* LocAgentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D23B72B92D950009EAD37 /* LocAgentUITests.swift */; };
+		3D8D23BA2B92D950009EAD37 /* LocAgentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8D23B92B92D950009EAD37 /* LocAgentUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D8D23AA2B92D950009EAD37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D8D23912B92D94E009EAD37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8D23982B92D94E009EAD37;
+			remoteInfo = LocAgent;
+		};
+		3D8D23B42B92D950009EAD37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D8D23912B92D94E009EAD37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8D23982B92D94E009EAD37;
+			remoteInfo = LocAgent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D8D23992B92D94E009EAD37 /* LocAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8D239C2B92D94E009EAD37 /* LocAgentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocAgentApp.swift; sourceTree = "<group>"; };
+		3D8D239E2B92D94E009EAD37 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3D8D23A02B92D950009EAD37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D8D23A32B92D950009EAD37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D8D23A92B92D950009EAD37 /* LocAgentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocAgentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8D23AD2B92D950009EAD37 /* LocAgentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocAgentTests.swift; sourceTree = "<group>"; };
+		3D8D23B32B92D950009EAD37 /* LocAgentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocAgentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8D23B72B92D950009EAD37 /* LocAgentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocAgentUITests.swift; sourceTree = "<group>"; };
+		3D8D23B92B92D950009EAD37 /* LocAgentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocAgentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D8D23962B92D94E009EAD37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D23A62B92D950009EAD37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D23B02B92D950009EAD37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D8D23902B92D94E009EAD37 = {
+			isa = PBXGroup;
+			children = (
+				3D8D239B2B92D94E009EAD37 /* LocAgent */,
+				3D8D23AC2B92D950009EAD37 /* LocAgentTests */,
+				3D8D23B62B92D950009EAD37 /* LocAgentUITests */,
+				3D8D239A2B92D94E009EAD37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D8D239A2B92D94E009EAD37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D23992B92D94E009EAD37 /* LocAgent.app */,
+				3D8D23A92B92D950009EAD37 /* LocAgentTests.xctest */,
+				3D8D23B32B92D950009EAD37 /* LocAgentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D8D239B2B92D94E009EAD37 /* LocAgent */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D239C2B92D94E009EAD37 /* LocAgentApp.swift */,
+				3D8D239E2B92D94E009EAD37 /* ContentView.swift */,
+				3D8D23A02B92D950009EAD37 /* Assets.xcassets */,
+				3D8D23A22B92D950009EAD37 /* Preview Content */,
+			);
+			path = LocAgent;
+			sourceTree = "<group>";
+		};
+		3D8D23A22B92D950009EAD37 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D23A32B92D950009EAD37 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3D8D23AC2B92D950009EAD37 /* LocAgentTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D23AD2B92D950009EAD37 /* LocAgentTests.swift */,
+			);
+			path = LocAgentTests;
+			sourceTree = "<group>";
+		};
+		3D8D23B62B92D950009EAD37 /* LocAgentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8D23B72B92D950009EAD37 /* LocAgentUITests.swift */,
+				3D8D23B92B92D950009EAD37 /* LocAgentUITestsLaunchTests.swift */,
+			);
+			path = LocAgentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D8D23982B92D94E009EAD37 /* LocAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8D23BD2B92D950009EAD37 /* Build configuration list for PBXNativeTarget "LocAgent" */;
+			buildPhases = (
+				3D8D23952B92D94E009EAD37 /* Sources */,
+				3D8D23962B92D94E009EAD37 /* Frameworks */,
+				3D8D23972B92D94E009EAD37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocAgent;
+			productName = LocAgent;
+			productReference = 3D8D23992B92D94E009EAD37 /* LocAgent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D8D23A82B92D950009EAD37 /* LocAgentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8D23C02B92D950009EAD37 /* Build configuration list for PBXNativeTarget "LocAgentTests" */;
+			buildPhases = (
+				3D8D23A52B92D950009EAD37 /* Sources */,
+				3D8D23A62B92D950009EAD37 /* Frameworks */,
+				3D8D23A72B92D950009EAD37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8D23AB2B92D950009EAD37 /* PBXTargetDependency */,
+			);
+			name = LocAgentTests;
+			productName = LocAgentTests;
+			productReference = 3D8D23A92B92D950009EAD37 /* LocAgentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D8D23B22B92D950009EAD37 /* LocAgentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D8D23C32B92D950009EAD37 /* Build configuration list for PBXNativeTarget "LocAgentUITests" */;
+			buildPhases = (
+				3D8D23AF2B92D950009EAD37 /* Sources */,
+				3D8D23B02B92D950009EAD37 /* Frameworks */,
+				3D8D23B12B92D950009EAD37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8D23B52B92D950009EAD37 /* PBXTargetDependency */,
+			);
+			name = LocAgentUITests;
+			productName = LocAgentUITests;
+			productReference = 3D8D23B32B92D950009EAD37 /* LocAgentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D8D23912B92D94E009EAD37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3D8D23982B92D94E009EAD37 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3D8D23A82B92D950009EAD37 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3D8D23982B92D94E009EAD37;
+					};
+					3D8D23B22B92D950009EAD37 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 3D8D23982B92D94E009EAD37;
+					};
+				};
+			};
+			buildConfigurationList = 3D8D23942B92D94E009EAD37 /* Build configuration list for PBXProject "LocAgent" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D8D23902B92D94E009EAD37;
+			productRefGroup = 3D8D239A2B92D94E009EAD37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D8D23982B92D94E009EAD37 /* LocAgent */,
+				3D8D23A82B92D950009EAD37 /* LocAgentTests */,
+				3D8D23B22B92D950009EAD37 /* LocAgentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D8D23972B92D94E009EAD37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8D23A42B92D950009EAD37 /* Preview Assets.xcassets in Resources */,
+				3D8D23A12B92D950009EAD37 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D23A72B92D950009EAD37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D23B12B92D950009EAD37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D8D23952B92D94E009EAD37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8D239F2B92D94E009EAD37 /* ContentView.swift in Sources */,
+				3D8D239D2B92D94E009EAD37 /* LocAgentApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D23A52B92D950009EAD37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8D23AE2B92D950009EAD37 /* LocAgentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D8D23AF2B92D950009EAD37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8D23BA2B92D950009EAD37 /* LocAgentUITestsLaunchTests.swift in Sources */,
+				3D8D23B82B92D950009EAD37 /* LocAgentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D8D23AB2B92D950009EAD37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8D23982B92D94E009EAD37 /* LocAgent */;
+			targetProxy = 3D8D23AA2B92D950009EAD37 /* PBXContainerItemProxy */;
+		};
+		3D8D23B52B92D950009EAD37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8D23982B92D94E009EAD37 /* LocAgent */;
+			targetProxy = 3D8D23B42B92D950009EAD37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D8D23BB2B92D950009EAD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D8D23BC2B92D950009EAD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D8D23BE2B92D950009EAD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LocAgent/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F3M4EZ6SR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patricioreyes.LocAgent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D8D23BF2B92D950009EAD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LocAgent/Preview Content\"";
+				DEVELOPMENT_TEAM = 9F3M4EZ6SR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patricioreyes.LocAgent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D8D23C12B92D950009EAD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9F3M4EZ6SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patricioreyes.LocAgentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocAgent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocAgent";
+			};
+			name = Debug;
+		};
+		3D8D23C22B92D950009EAD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9F3M4EZ6SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patricioreyes.LocAgentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocAgent.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LocAgent";
+			};
+			name = Release;
+		};
+		3D8D23C42B92D950009EAD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9F3M4EZ6SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patricioreyes.LocAgentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocAgent;
+			};
+			name = Debug;
+		};
+		3D8D23C52B92D950009EAD37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9F3M4EZ6SR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patricioreyes.LocAgentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LocAgent;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D8D23942B92D94E009EAD37 /* Build configuration list for PBXProject "LocAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8D23BB2B92D950009EAD37 /* Debug */,
+				3D8D23BC2B92D950009EAD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8D23BD2B92D950009EAD37 /* Build configuration list for PBXNativeTarget "LocAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8D23BE2B92D950009EAD37 /* Debug */,
+				3D8D23BF2B92D950009EAD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8D23C02B92D950009EAD37 /* Build configuration list for PBXNativeTarget "LocAgentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8D23C12B92D950009EAD37 /* Debug */,
+				3D8D23C22B92D950009EAD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D8D23C32B92D950009EAD37 /* Build configuration list for PBXNativeTarget "LocAgentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8D23C42B92D950009EAD37 /* Debug */,
+				3D8D23C52B92D950009EAD37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D8D23912B92D94E009EAD37 /* Project object */;
+}
